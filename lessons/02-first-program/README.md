@@ -6,6 +6,8 @@ Hello world, and how a JS file is executed.
 
 - a `.js` file is a script run top-to-bottom
 - `console.log(...)` prints to the terminal
+- no compile step — Node runs the source directly
+- statements usually end with `;` (optional, see ASI lesson)
 
 ## Example
 

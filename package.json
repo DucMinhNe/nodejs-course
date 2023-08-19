@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-deep-dive",
+  "version": "0.1.0",
+  "description": "Notes and examples from a Node.js course",
+  "private": true,
+  "license": "MIT",
+  "author": "Minh Le <ducminhldm@gmail.com>",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

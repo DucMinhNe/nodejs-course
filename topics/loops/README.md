@@ -6,6 +6,8 @@ for, for…of, for…in, while, do-while, forEach.
 
 - `for…of` iterates values; `for…in` iterates keys (including inherited)
 - `forEach` can't break — use `for…of` if you need early exit
+- `for await…of` for async iterables
+- watch out: `for…in` on arrays yields strings, not numbers
 
 ## Examples
 

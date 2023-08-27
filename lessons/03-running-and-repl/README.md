@@ -6,6 +6,8 @@ Two ways to run JS: a file, or the interactive REPL.
 
 - `node file.js` runs a script
 - `node` with no args opens the REPL (Read-Eval-Print-Loop)
+- in the REPL, `_` holds the last result
+- `.exit` or Ctrl-D leaves the REPL
 
 ## Example
 

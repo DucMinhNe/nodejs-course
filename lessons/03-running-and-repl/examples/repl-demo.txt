@@ -1,0 +1,10 @@
+$ node
+> 1 + 1
+2
+> _ * 10
+20
+> const x = 5
+undefined
+> x ** 2
+25
+> .exit

@@ -6,6 +6,8 @@ Variable and function declarations are hoisted to the top of their scope.
 
 - `var` is hoisted as `undefined`
 - function declarations are fully hoisted
+- `let` / `const` are hoisted but in the Temporal Dead Zone
+- TDZ throws `ReferenceError` on access before declaration
 
 ## Examples
 

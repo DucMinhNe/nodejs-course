@@ -6,6 +6,8 @@ Strings are immutable. All methods return a new string.
 
 - search: includes / startsWith / endsWith / indexOf
 - extract: slice / substring / substr (deprecated)
+- transform: toUpperCase / toLowerCase / trim / padStart / padEnd
+- split / replace / replaceAll / repeat / matchAll
 
 ## Examples
 

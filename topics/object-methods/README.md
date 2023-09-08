@@ -6,6 +6,8 @@ Object utilities: keys, values, entries, freeze, assign, fromEntries.
 
 - Object.keys / values / entries — own enumerable string-keyed props
 - Object.freeze: shallow immutability; Object.isFrozen to check
+- Object.assign for shallow merge (use spread for clarity)
+- Object.fromEntries pairs with Object.entries for transforms
 
 ## Examples
 

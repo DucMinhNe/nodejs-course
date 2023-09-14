@@ -6,6 +6,8 @@ How JS is structured: statements, expressions, blocks.
 
 - a statement performs an action; an expression produces a value
 - semicolons end statements — JS inserts them automatically (ASI), but be careful
+- code blocks are wrapped in `{ }`
+- ASI pitfall: a line starting with `(` or `[` can merge with the line above
 
 ## Example
 

@@ -6,6 +6,8 @@ A closure is a function bundled with its lexical environment.
 
 - lexical scope vs dynamic scope
 - closures capture variables, not values
+- the var-in-loop pitfall and the `let` fix
+- uses: counters, memoization, module pattern
 
 ## Examples
 

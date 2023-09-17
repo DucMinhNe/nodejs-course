@@ -6,6 +6,9 @@ Pull values out of arrays and objects with concise syntax.
 
 - array: `[a, b] = [1, 2]`
 - object: `{ name, age } = user`
+- rename: `{ name: n }`
+- defaults: `{ name = 'anon' } = {}`
+- rest: `[head, ...tail] = list`
 
 ## Examples
 

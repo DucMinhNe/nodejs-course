@@ -6,6 +6,8 @@
 
 - spread in calls: `fn(...args)`
 - spread in literals: `[...a, ...b]`, `{ ...obj1, ...obj2 }`
+- rest in params: `function f(...args) {}`
+- rest in destructuring: `[head, ...tail]`
 
 ## Examples
 

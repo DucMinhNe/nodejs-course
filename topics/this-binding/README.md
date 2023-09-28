@@ -6,6 +6,9 @@
 
 - default binding: `this` = global (or undefined in strict)
 - implicit binding: `obj.fn()` → `this = obj`
+- explicit binding: `call`, `apply`, `bind`
+- new binding overrides above
+- arrow functions inherit lexical `this`
 
 ## Examples
 

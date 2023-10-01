@@ -6,6 +6,8 @@ Serialize / parse with JSON.stringify and JSON.parse.
 
 - JSON has no functions, no `undefined`, no `Date` — they vanish or become strings
 - circular references throw on stringify — use a replacer
+- 2nd arg (replacer) lets you filter or transform
+- 3rd arg (spaces) controls indentation
 
 ## Examples
 

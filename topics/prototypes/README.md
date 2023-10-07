@@ -6,6 +6,8 @@ Objects in JavaScript inherit from a prototype chain. Classes are syntactic suga
 
 - every object has an internal [[Prototype]] (`__proto__`)
 - constructor functions + `prototype`
+- ES6 `class` syntax
+- `extends` and `super`
 
 ## Examples
 

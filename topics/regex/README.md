@@ -6,6 +6,8 @@ Pattern matching with /…/flags or RegExp().
 
 - flags: g (global), i (case-insensitive), m (multiline), s (dotall), u (unicode)
 - groups: (capturing) (?:non-capturing) (?<name>named)
+- lookahead / lookbehind: (?=) (?!) (?<=) (?<!)
+- common methods: test, exec, match, matchAll, replace, replaceAll, split
 
 ## Examples
 

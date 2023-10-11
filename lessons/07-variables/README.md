@@ -6,6 +6,8 @@ Declaring values. Prefer const; use let when reassigning; avoid var.
 
 - `const` — can't be reassigned (but objects are still mutable)
 - `let` — block-scoped, reassignable
+- `var` — function-scoped, hoisted, legacy — avoid in new code
+- declare close to first use; one declaration per concept
 
 ## Example
 

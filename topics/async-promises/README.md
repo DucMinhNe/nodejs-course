@@ -6,6 +6,8 @@ Promises represent a future value. async/await is sugar over .then chains.
 
 - 3 states: pending, fulfilled, rejected
 - Promise.all / race / allSettled / any
+- always handle rejections
+- common pitfall: forgetting `await`
 
 ## Examples
 

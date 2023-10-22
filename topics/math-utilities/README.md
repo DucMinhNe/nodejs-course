@@ -6,6 +6,8 @@ Math object: constants + utility functions.
 
 - Math.random() returns [0, 1)
 - Math.floor / ceil / round / trunc
+- Math.min/max accept variadic args (use spread with arrays)
+- use crypto.randomInt() for unbiased crypto-strength random
 
 ## Examples
 

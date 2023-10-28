@@ -6,6 +6,8 @@ Node's event loop drives async work. Understanding microtasks vs macrotasks matt
 
 - microtasks (Promise, queueMicrotask, process.nextTick) run between every phase
 - macrotasks (setTimeout, setImmediate, I/O) run by phase
+- process.nextTick beats Promise.then
+- blocking the loop blocks all I/O
 
 ## Examples
 

@@ -6,6 +6,8 @@ Set: unique values. Map: keyed entries with any key type.
 
 - Set.add, has, delete, size
 - Map.set, get, has, delete, size — keys can be objects
+- WeakSet / WeakMap allow garbage collection of keys
+- iterate with for…of (insertion order)
 
 ## Examples
 

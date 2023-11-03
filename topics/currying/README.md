@@ -6,6 +6,7 @@ Currying transforms a multi-arg function into a chain of single-arg ones.
 
 - partial application via .bind
 - generic curry helpers
+- useful in pipe / compose pipelines
 
 ## Examples
 

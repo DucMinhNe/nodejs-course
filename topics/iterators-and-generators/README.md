@@ -6,6 +6,8 @@ Symbol.iterator + generator functions enable custom iteration.
 
 - any object with `[Symbol.iterator]()` is iterable
 - generators (`function*`) implement iterables with `yield`
+- yield* delegates to another iterable
+- for await…of for async iterables
 
 ## Examples
 

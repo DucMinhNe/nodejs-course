@@ -6,6 +6,8 @@ Symbols are unique primitive values used as obj keys or well-known protocols.
 
 - Symbol('desc') creates a unique value — never `==` another symbol
 - well-known: Symbol.iterator, Symbol.asyncIterator, Symbol.toPrimitive
+- Symbol.for / Symbol.keyFor work with a shared registry
+- symbol-keyed props aren't enumerated by Object.keys
 
 ## Examples
 

@@ -6,6 +6,8 @@ Text values. Created with quotes or backticks.
 
 - single, double, or backtick quotes — pick one style and stick to it
 - template literals (backticks) support `${expression}` interpolation
+- escape special chars with `\` (e.g. `\n`, `\t`, `\"`)
+- strings are immutable — methods return new strings
 
 ## Example
 

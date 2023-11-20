@@ -6,6 +6,8 @@ Intercept fundamental object operations.
 
 - traps: get, set, has, deleteProperty, apply, construct, etc.
 - Reflect mirrors trap signatures for delegation
+- useful for: validation, logging, defaults, virtualisation
+- performance overhead — don't proxy hot paths
 
 ## Examples
 

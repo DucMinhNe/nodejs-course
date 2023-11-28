@@ -6,6 +6,8 @@ Cross-platform path manipulation.
 
 - `path.join` vs `path.resolve` (relative vs absolute)
 - `path.sep` differs on Windows (`\`) and POSIX (`/`)
+- `path.basename`, `path.dirname`, `path.extname`
+- always avoid string concat for paths
 
 ## Examples
 

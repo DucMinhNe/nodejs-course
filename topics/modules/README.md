@@ -6,6 +6,7 @@ Node supports both module systems. Mixing them needs care.
 
 - CommonJS: synchronous, `require` / `module.exports`
 - ESM: asynchronous, `import` / `export`, requires `"type": "module"` or `.mjs`
+- can't `require` an ESM module directly (use dynamic `import()`)
 
 ## Examples
 

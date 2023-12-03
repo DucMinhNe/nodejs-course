@@ -6,6 +6,8 @@ WHATWG URL class + legacy url.parse.
 
 - `new URL(input, base)` — modern API
 - searchParams is a URLSearchParams object
+- `URL` throws on invalid input — wrap in try/catch
+- legacy `url.parse` is deprecated
 
 ## Examples
 

@@ -6,6 +6,8 @@ Utilities: promisify, callbackify, types, inspect.
 
 - `util.promisify(fn)` converts callback-style to Promise
 - `util.inspect(obj)` for pretty debug output
+- `util.types.isPromise(x)` and friends
+- `util.format('%s %d', ...)` like printf
 
 ## Examples
 

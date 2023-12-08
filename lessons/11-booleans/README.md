@@ -6,6 +6,8 @@ true / false, and how non-booleans coerce.
 
 - falsy values: `false, 0, '', null, undefined, NaN`
 - everything else is truthy — including `[]`, `{}`, `'0'`, `'false'`
+- use `Boolean(x)` or `!!x` to coerce explicitly
+- guard with truthiness: `if (user) { ... }`
 
 ## Example
 

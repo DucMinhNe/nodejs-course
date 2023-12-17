@@ -6,6 +6,8 @@ Hashing, HMAC, encryption, secure random.
 
 - `crypto.createHash('sha256')` for hashing
 - `crypto.createHmac` for keyed MACs
+- `crypto.randomBytes(n)` for crypto-strength random
+- `scrypt` / `pbkdf2` for password hashing (or use bcrypt/argon2)
 
 ## Examples
 

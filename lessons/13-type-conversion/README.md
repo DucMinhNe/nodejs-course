@@ -6,6 +6,8 @@ Explicit conversion vs implicit coercion.
 
 - explicit: `String(x)`, `Number(x)`, `Boolean(x)`
 - implicit: `'5' * 2 === 10`, `1 + '2' === '12'`
+- `parseInt`/`parseFloat` parse leading numbers from strings
+- prefer explicit conversion for readability
 
 ## Example
 

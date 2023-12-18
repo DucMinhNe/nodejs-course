@@ -6,6 +6,8 @@ Two ways to represent 'nothing'.
 
 - `undefined` — a variable was declared but not assigned; missing property; no return
 - `null` — an intentional 'empty' value you set yourself
+- `null == undefined` is true; `null === undefined` is false
+- use `??` to default only on null/undefined
 
 ## Example
 

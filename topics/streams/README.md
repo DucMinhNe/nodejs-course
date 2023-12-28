@@ -6,6 +6,8 @@ Streams process data piece by piece — essential for files, network, and pipeli
 
 - 4 types: Readable, Writable, Duplex, Transform
 - events: 'data', 'end', 'error', 'finish'
+- backpressure: `.write()` returns false → wait for 'drain'
+- prefer `.pipe()` or `pipeline()` for error propagation
 
 ## Examples
 

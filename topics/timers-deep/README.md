@@ -6,6 +6,8 @@ setTimeout, setInterval, setImmediate, process.nextTick.
 
 - `setTimeout(fn, 0)` ≠ `setImmediate(fn)` — different event loop phases
 - `process.nextTick` runs before any I/O or timers
+- `setInterval` drifts under load — prefer recursive setTimeout
+- all return ref-able handles; use `.unref()` to allow process exit
 
 ## Examples
 

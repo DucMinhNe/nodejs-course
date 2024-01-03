@@ -6,6 +6,8 @@ Beyond console.log: log, info, warn, error, group, time, trace, dir, table.
 
 - `console.error` writes to stderr (separate stream)
 - `console.time / timeEnd` for quick timing
+- `console.table(rows)` prints aligned rows
+- `new console.Console(stdout, stderr)` builds a custom logger
 
 ## Examples
 

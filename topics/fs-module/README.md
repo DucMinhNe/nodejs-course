@@ -6,6 +6,8 @@ Three flavours: sync, callback, and Promise-based (`fs/promises`).
 
 - prefer `fs/promises` in modern code
 - always handle errors (file might not exist, permissions...)
+- use streams for large files
+- watch out for race conditions on concurrent writes
 
 ## Examples
 

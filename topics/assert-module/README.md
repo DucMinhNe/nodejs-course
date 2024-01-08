@@ -6,6 +6,8 @@ Built-in assertions for quick checks and tests.
 
 - `assert.strictEqual(a, b)` — like ===
 - `assert.deepStrictEqual(a, b)` — recursive structural
+- `assert.throws(fn, /msg/)` — confirms an error
+- `assert.rejects(promise)` for async
 
 ## Examples
 

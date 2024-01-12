@@ -6,6 +6,8 @@ Node's binary data buffer (fixed-length, like Uint8Array).
 
 - `Buffer.from(...)`, `Buffer.alloc(n)`, `Buffer.allocUnsafe(n)`
 - convert with `.toString('utf8' | 'hex' | 'base64')`
+- Buffer is a subclass of Uint8Array
+- concat with `Buffer.concat([...])`
 
 ## Examples
 

@@ -6,6 +6,8 @@
 
 - `&&` returns the first falsy or the last value
 - `||` returns the first truthy or the last value
+- short-circuit: `cond && doThing()`, `value || fallback`
+- `!` negates; `!!` coerces to boolean
 
 ## Example
 

@@ -6,6 +6,8 @@ How to send data back from a route.
 
 - `res.json(obj)` sets Content-Type and stringifies
 - `res.status(n).json(...)` to set status code
+- `res.sendFile(absPath)` for files (use path.resolve)
+- `res.redirect(url)` defaults to 302; pass 301 for permanent
 
 ## Examples
 

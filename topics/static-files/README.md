@@ -6,6 +6,8 @@ Express has built-in static middleware.
 
 - `express.static('public')` serves /public
 - set max-age headers via options for caching
+- use a CDN in production; Node-served statics don't scale
+- be careful with directory traversal — middleware handles it but be cautious with custom code
 
 ## Examples
 

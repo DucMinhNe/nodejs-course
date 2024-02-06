@@ -6,6 +6,8 @@ Multipart form-data parsing for file uploads.
 
 - `multer` middleware: storage (disk/memory), limits, fileFilter
 - single / array / fields / any
+- validate mimetype + size + extension
+- store outside the public web root
 
 ## Examples
 

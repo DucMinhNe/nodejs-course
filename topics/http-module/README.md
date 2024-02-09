@@ -6,6 +6,8 @@ Node ships with a low-level `http` module. Most apps use a framework on top.
 
 - server: `http.createServer((req, res) => ...)`
 - client: `http.request` / `https.get`
+- manual routing requires parsing `req.url`
+- frameworks like Express add ergonomic routing
 
 ## Examples
 

@@ -6,6 +6,8 @@ Multi-way branch on a single value.
 
 - matches with `===`
 - `break` prevents fall-through
+- intentional fall-through groups cases
+- `default` handles the rest
 
 ## Example
 

@@ -6,6 +6,8 @@ Branching based on conditions.
 
 - condition is coerced to boolean
 - chain with `else if`
+- prefer early returns (guard clauses) to deep nesting
+- use `===` in conditions
 
 ## Example
 

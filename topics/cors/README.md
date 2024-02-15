@@ -6,6 +6,8 @@ Cross-Origin Resource Sharing for browser clients.
 
 - enable with `cors()` middleware
 - use a whitelist function for origin instead of `*` in prod
+- credentials (cookies) require `credentials: true` + specific origin
+- preflight is OPTIONS — handled automatically
 
 ## Examples
 

@@ -6,6 +6,8 @@ express-rate-limit limits requests per IP per window.
 
 - pick a store (memory default; Redis in prod)
 - different limits for /login, /api, /search
+- respond with 429 + retry-after header
+- consider IP spoofing if behind proxies — trust proxy first
 
 ## Examples
 

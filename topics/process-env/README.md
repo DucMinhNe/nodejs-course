@@ -6,6 +6,7 @@
 
 - read `process.env.X`
 - handle signals (`SIGTERM`, `SIGINT`) for graceful shutdown
+- log to `stdout` / `stderr` separately
 
 ## Examples
 

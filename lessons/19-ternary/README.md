@@ -6,6 +6,7 @@ Concise one-line conditional: cond ? a : b.
 
 - use for simple value selection, not side effects
 - avoid nesting more than once — it hurts readability
+- great for inline JSX/templates
 
 ## Example
 

@@ -6,6 +6,8 @@ Loop while a condition holds.
 
 - `while (cond) { ... }` checks before each iteration
 - `do { ... } while (cond)` runs at least once
+- always change the condition inside, or you get an infinite loop
+- `break` exits; `continue` skips to next iteration
 
 ## Example
 

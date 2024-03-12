@@ -6,6 +6,8 @@ Session-based auth using express-session and signed cookies.
 
 - always set cookies with httpOnly + secure + sameSite=lax/strict
 - session store must be persistent in prod (Redis, Mongo)
+- rotate session ID after login to prevent fixation
+- logout = destroy session + clear cookie
 
 ## Examples
 

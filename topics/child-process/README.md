@@ -6,6 +6,7 @@ Spawn external commands.
 
 - `spawn` for streaming long-running processes
 - `exec` for short commands with buffered output
+- NEVER pass user input directly to `exec` (shell injection risk)
 
 ## Examples
 

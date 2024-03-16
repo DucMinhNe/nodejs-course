@@ -6,6 +6,8 @@ for, for…of, for…in.
 
 - classic `for (let i = 0; i < n; i++)` for index control
 - `for…of` iterates array/iterable VALUES
+- `for…in` iterates object KEYS (avoid on arrays)
+- prefer `for…of` / array methods over index loops when you don't need the index
 
 ## Example
 

@@ -6,6 +6,8 @@ Native node-postgres driver.
 
 - use a Pool — never new Client per query
 - parameterised queries with `$1, $2, ...` — never string concat
+- transactions with `pool.connect()` + BEGIN / COMMIT / ROLLBACK
+- wrap results in a service layer
 
 ## Examples
 

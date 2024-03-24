@@ -6,6 +6,8 @@ Modern type-safe ORM with auto-generated client.
 
 - define schema in `schema.prisma`
 - `prisma generate` produces typed client
+- `prisma migrate dev` for migrations
+- Prisma queries are async and chainable
 
 ## Examples
 

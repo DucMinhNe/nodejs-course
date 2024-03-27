@@ -6,6 +6,8 @@ Run CPU-bound work off the main thread.
 
 - each worker has its own V8 instance and event loop
 - message-passing with `postMessage` / `parentPort`
+- use `SharedArrayBuffer` for shared memory
+- avoid for I/O — workers shine for CPU work
 
 ## Examples
 

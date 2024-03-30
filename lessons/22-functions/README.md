@@ -6,6 +6,8 @@ Reusable blocks of code that take inputs and return outputs.
 
 - declare with `function name(params) { ... }`
 - `return` sends a value back (default is undefined)
+- parameters are local to the function
+- functions are first-class — pass them around like values
 
 ## Example
 

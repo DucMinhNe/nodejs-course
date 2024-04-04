@@ -6,6 +6,8 @@ Fork the master process to use multiple CPU cores.
 
 - one master + N workers (typically `os.cpus().length`)
 - the master handles the listening socket and distributes connections
+- auto-restart workers on crash
+- alternative: a process manager (pm2) does this for you
 
 ## Examples
 

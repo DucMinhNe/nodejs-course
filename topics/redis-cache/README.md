@@ -6,6 +6,8 @@ Cache-aside pattern: try Redis, fallback to DB, write through.
 
 - client: ioredis or node-redis
 - set with TTL to bound stale data
+- use pipelines for batched ops
+- watch for cache stampede — use locks or stale-while-revalidate
 
 ## Examples
 

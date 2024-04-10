@@ -6,6 +6,8 @@ Two ways to define functions, with different hoisting.
 
 - declaration: `function f() {}` — hoisted, callable before definition
 - expression: `const f = function () {}` — not hoisted
+- named expressions help stack traces
+- IIFE: `(function () { ... })()` runs immediately
 
 ## Example
 

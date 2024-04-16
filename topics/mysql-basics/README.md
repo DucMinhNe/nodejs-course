@@ -6,6 +6,8 @@ mysql2 supports both promise + callback API.
 
 - use a pool
 - promise API: `mysql.createPool(...).promise()`
+- parameter binding with `?` — never concatenate strings
+- transactions via getConnection + beginTransaction
 
 ## Examples
 

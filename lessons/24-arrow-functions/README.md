@@ -6,6 +6,8 @@ Concise function syntax with lexical this.
 
 - `(a, b) => a + b` — implicit return for single expressions
 - `x => x * 2` — single param needs no parens
+- `() => { ... }` — block body needs explicit return
+- arrows have no own `this`, `arguments`, or `new`
 
 ## Example
 

@@ -6,6 +6,8 @@ Twelve-factor config: read from env, fall back to defaults.
 
 - load .env early: `require('dotenv').config()` at top of entry file
 - never commit .env — only commit .env.example
+- validate required vars at boot (zod / joi)
+- different files per env: .env.development, .env.production
 
 ## Examples
 

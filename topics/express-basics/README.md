@@ -6,6 +6,8 @@ Routing, parameters, query strings, request body.
 
 - `express.json()` middleware to parse JSON bodies
 - route params: `/users/:id`
+- query strings via `req.query`
+- send JSON with `res.json(...)`
 
 ## Examples
 

@@ -6,6 +6,8 @@ Default values, rest params, and destructured params.
 
 - default: `function f(x = 10) {}`
 - rest: `function f(...args) {}` collects extras into an array
+- destructured: `function f({ name, age }) {}`
+- params are positional unless you use an options object
 
 ## Example
 

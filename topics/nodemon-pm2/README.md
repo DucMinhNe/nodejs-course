@@ -6,6 +6,8 @@ Process supervisors for development and production.
 
 - nodemon restarts on file change — never use in prod
 - pm2 manages clusters, log rotation, auto-restart, watchdog
+- pm2 ecosystem.config.js for declarative config
+- alternatives: systemd, foreman, Docker + restart=always
 
 ## Examples
 

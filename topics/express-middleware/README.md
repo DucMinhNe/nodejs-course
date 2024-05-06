@@ -6,6 +6,8 @@ Middleware are functions `(req, res, next) => ...` that run in order.
 
 - global middleware via `app.use`
 - per-route middleware
+- error middleware uses 4 args: `(err, req, res, next)`
+- common middleware: helmet, cors, morgan, express-rate-limit
 
 ## Examples
 

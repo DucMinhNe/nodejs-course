@@ -6,6 +6,8 @@ Where variables are visible: global, function, block.
 
 - global scope: declared outside any function
 - function scope: visible only inside the function
+- block scope: `let`/`const` are visible only inside `{ }`
+- inner scopes can read outer variables (lexical scope)
 
 ## Example
 

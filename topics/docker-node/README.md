@@ -6,6 +6,8 @@ Multi-stage builds for small, secure production images.
 
 - use official `node:20-alpine` (slim)
 - multi-stage: build with full image, copy artefacts into slim image
+- run as non-root user
+- .dockerignore must include node_modules + .git
 
 ## Examples
 

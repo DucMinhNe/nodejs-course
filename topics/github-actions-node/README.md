@@ -6,6 +6,8 @@ Automate test + lint + build on every push.
 
 - use actions/checkout + actions/setup-node
 - cache node_modules via setup-node cache option
+- matrix builds across Node versions
+- secrets via GitHub Actions secrets (never in code)
 
 ## Examples
 

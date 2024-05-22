@@ -6,6 +6,9 @@ Top web vulnerabilities and how to mitigate in Node.
 
 - Injection: parameterise queries; never eval user input
 - Broken auth: bcrypt/argon2, JWT short TTL, session rotation
+- XSS: escape output; CSP
+- Sensitive data exposure: TLS + secrets in vault
+- SSRF: never fetch arbitrary URLs from user input
 
 ## Examples
 

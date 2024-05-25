@@ -6,6 +6,8 @@ Key-value collections — the core data structure.
 
 - create with `{}`; keys are strings (or symbols)
 - access with dot `obj.key` or bracket `obj['key']`
+- methods are functions stored as properties
+- shorthand: `{ name }` instead of `{ name: name }`
 
 ## Example
 

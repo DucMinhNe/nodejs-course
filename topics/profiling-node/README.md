@@ -6,6 +6,8 @@ Find bottlenecks with built-in and external tools.
 
 - `node --prof` produces a V8 prof log
 - `clinic.js doctor` diagnoses common issues
+- `--inspect` for Chrome DevTools
+- log-based: pino + p99 latencies
 
 ## Examples
 

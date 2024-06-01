@@ -6,6 +6,8 @@ Centralised error middleware + async-safe handlers.
 
 - async errors must be passed to `next(err)`
 - use an `asyncHandler` wrapper or `express-async-errors`
+- differentiate 4xx (client) from 5xx (server)
+- don't leak stack traces in production
 
 ## Examples
 

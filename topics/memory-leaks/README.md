@@ -6,6 +6,8 @@ Common Node memory leaks and how to find them.
 
 - heap snapshots: `node --inspect` + Chrome DevTools
 - common leaks: unbounded caches, closures, listeners
+- monitor: process.memoryUsage().heapUsed over time
+- `--max-old-space-size=N` to raise heap; usually a symptom
 
 ## Examples
 

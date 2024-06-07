@@ -6,6 +6,8 @@ Reading from stdin, writing to stdout/stderr.
 
 - `console.log` → stdout; `console.error` → stderr
 - `process.stdout.write` for no trailing newline
+- `readline` for interactive line-by-line input
+- pipe data through `process.stdin`
 
 ## Example
 

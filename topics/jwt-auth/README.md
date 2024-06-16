@@ -6,6 +6,8 @@ Stateless auth via signed JSON tokens.
 
 - sign with HMAC (HS256) or RSA (RS256)
 - never store secrets in code — use env vars
+- short-lived access tokens + refresh tokens
+- bcrypt for password hashing
 
 ## Examples
 

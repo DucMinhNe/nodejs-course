@@ -6,6 +6,8 @@ Set up TypeScript for a Node project.
 
 - `tsc --init` → tsconfig.json
 - `ts-node` for dev (no build step) — or `tsx` for faster
+- type definitions live in `@types/<pkg>` packages
+- `tsc -b` for build, `tsc --watch` for incremental
 
 ## Examples
 

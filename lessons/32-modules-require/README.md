@@ -6,6 +6,8 @@ Split code across files with CommonJS.
 
 - export with `module.exports = ...` or `exports.x = ...`
 - import with `const x = require('./file')`
+- each file is its own module (own scope)
+- ESM alternative: `import`/`export` with `"type": "module"`
 
 ## Example
 

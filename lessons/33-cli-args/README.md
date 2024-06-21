@@ -6,6 +6,8 @@ Read args passed to your script.
 
 - `process.argv` is an array: [node, script, ...args]
 - slice off the first two: `process.argv.slice(2)`
+- parse flags manually or with a library (yargs, commander)
+- `process.exit(code)` to end with a status
 
 ## Example
 

@@ -6,6 +6,8 @@ Mongoose models a schema layer on top of MongoDB.
 
 - define a `Schema`, register a `Model`
 - queries return Mongoose Documents (not plain objects) by default
+- use `.lean()` for read-only speed
+- indexes matter — define them on schema
 
 ## Examples
 

@@ -6,6 +6,8 @@ Beyond basic types: generics, conditional types, utility types.
 
 - utility types: Partial, Required, Pick, Omit, Record, ReturnType
 - conditional types: `T extends U ? X : Y`
+- template literal types
+- infer for extracting types
 
 ## Examples
 

@@ -6,6 +6,8 @@ Jest for unit + integration tests.
 
 - `describe` / `test` / `expect`
 - matchers: `.toBe`, `.toEqual`, `.toMatchObject`
+- `jest.mock` to replace a module
+- snapshot tests for stable structured output
 
 ## Examples
 

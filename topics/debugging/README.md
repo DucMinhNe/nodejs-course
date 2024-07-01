@@ -6,6 +6,8 @@ Beyond `console.log`.
 
 - `node --inspect` + Chrome DevTools (breakpoints, profiles)
 - `debug` package: namespaced logging toggled by env var
+- VSCode launch.json: 'launch' or 'attach'
+- `process.on('unhandledRejection')` to log lost promise errors
 
 ## Examples
 

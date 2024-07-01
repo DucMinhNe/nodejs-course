@@ -6,6 +6,8 @@ JSON logs are queryable and machine-friendly.
 
 - pino is one of the fastest Node loggers
 - structured: log objects, not strings
+- log levels: trace, debug, info, warn, error, fatal
+- redact secrets via the `redact` option
 
 ## Examples
 

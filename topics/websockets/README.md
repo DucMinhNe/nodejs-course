@@ -6,6 +6,8 @@ Persistent bidirectional connections.
 
 - lighter than socket.io for raw use
 - broadcast = loop over clients
+- consider heartbeat + auth handshake
+- for prod, run behind nginx with proxy_pass + upgrade headers
 
 ## Examples
 

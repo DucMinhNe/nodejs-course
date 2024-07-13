@@ -6,6 +6,8 @@ Schema-first APIs with typed resolvers.
 
 - one endpoint, client-driven queries
 - resolvers map (parent, args, context) → value
+- use DataLoader to batch N+1 queries
+- type-safe with codegen + TS
 
 ## Examples
 

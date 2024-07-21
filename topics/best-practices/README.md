@@ -6,6 +6,9 @@ What I want students to remember after the course.
 
 - validate input at the boundary
 - 12-factor config (env vars, logs to stdout)
+- graceful shutdown
+- structured logging, not `console.log`
+- don't block the event loop
 
 ## Examples
 

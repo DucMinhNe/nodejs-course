@@ -6,6 +6,8 @@ try / catch / finally and throwing errors.
 
 - wrap risky code in `try { } catch (e) { }`
 - `throw new Error('message')` to signal a problem
+- `finally` always runs (cleanup)
+- only async errors from awaited promises are caught
 
 ## Example
 

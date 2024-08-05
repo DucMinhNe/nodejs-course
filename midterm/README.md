@@ -16,3 +16,5 @@
 Implement a minimal in-memory pub/sub.
 
 _draft — finalize next week_
+
+**Status: parked.** Will reuse with the next cohort.

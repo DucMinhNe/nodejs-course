@@ -14,3 +14,5 @@
 ## Section C: small implementation (30%)
 
 Implement a minimal in-memory pub/sub.
+
+_draft — finalize next week_

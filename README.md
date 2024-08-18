@@ -1,10 +1,12 @@
 # 📚 nodejs-course
 
 > A full Node.js course — from JavaScript fundamentals to Node core, Express,
-> databases, and production practices. Built from the material I taught as an
-> IT lecturer.
+> databases, and production practices.
+>
+> Built from the material I taught as an IT lecturer at **Cao Thắng Technical
+> College** (Trường Cao đẳng Kỹ thuật Cao Thắng).
 
-![license](https://img.shields.io/badge/license-MIT-green.svg) ![node](https://img.shields.io/badge/node-18+-339933.svg) ![lessons](https://img.shields.io/badge/lessons-36-blue.svg) ![topics](https://img.shields.io/badge/topics-78-orange.svg) ![status](https://img.shields.io/badge/status-active-brightgreen.svg)
+![license](https://img.shields.io/badge/license-MIT-green.svg) ![node](https://img.shields.io/badge/node-18+-339933.svg) ![lessons](https://img.shields.io/badge/lessons-35-blue.svg) ![topics](https://img.shields.io/badge/topics-78-orange.svg) ![status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
 ---
 
@@ -79,6 +81,12 @@ validation…), databases (Postgres, Mongo, Redis…), and production concerns
 node lessons/01-setup-node/examples/check-version.js
 ```
 
+## About
+
+Authored and maintained by **Lê Đức Minh**, IT lecturer at Cao Thắng Technical
+College. These materials were used to teach Node.js and backend web development
+to my students. Feedback and pull requests are welcome.
+
 ## License
 
-MIT
+MIT © Lê Đức Minh

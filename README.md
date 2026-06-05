@@ -89,4 +89,4 @@ to my students. Feedback and pull requests are welcome.
 
 ## License
 
-MIT © Lê Đức Minh
+Released under the [MIT License](./LICENSE) — © Lê Đức Minh
